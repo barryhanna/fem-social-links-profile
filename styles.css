@@ -92,6 +92,12 @@ main {
     width: 5.5rem;
     border-radius: 50%;
     margin: auto;
+    border: 3px solid transparent;
+    transition: border 250ms ease-in;
+}
+
+.profile-card:hover .profile-card__image {
+    border: 3px solid var(--clr-neon-green);
 }
 
 .profile-card__links {
